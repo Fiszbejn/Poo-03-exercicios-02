@@ -14,7 +14,7 @@ public class Ponto {
         return calcularDistancia(origem);
     }
 
-    public Ponto calcularMenorDistanciaOrigem(Ponto p1,Ponto p2) {
+    public static Ponto calcularMenorDistanciaOrigem(Ponto p1,Ponto p2) {
         double dp1 = p1.calcularDistanciaOrigem();
         double dp2 = p2.calcularDistanciaOrigem();
         if(dp1 < dp2){

@@ -28,7 +28,7 @@ public class Main {
 
         //impressao ponto mais proximo da origem
         System.out.println();
-        Ponto aux = p1.calcularMenorDistanciaOrigem(p1, p2);
+        Ponto aux = Ponto.calcularMenorDistanciaOrigem(p1, p2);
         System.out.println("Menor distância até a origem entre p1 e p2: "+ aux.formatarPonto());
 
     }
